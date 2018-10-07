@@ -1,0 +1,78 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.22)  1 OCT 2018 23:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**olympic_pstricks-add.tex
+(./olympic_pstricks-add.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 26 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+
+! LaTeX Error: File `pstricks-add.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: pstricks-add.tex
+(./pstricks-add.tex
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `pstricks'.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+l.25 ...ricksLoaded\endinput\else \input pstricks 
+                                                  \fi
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 206 strings out of 494558
+ 2269 string characters out of 6167440
+ 56832 words of memory out of 5000000
+ 4165 multiletter control sequences out of 15000+600000
+ 3648 words of font info for 15 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 22i,0n,17p,153b,40s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

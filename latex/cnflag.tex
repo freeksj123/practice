@@ -1,0 +1,27 @@
+\documentclass[tikz, svgnames]{standalone}
+\usepackage{tikz, verbatim}
+\usetikzlibrary{shapes.geometric}
+
+\begin{comment}
+Five star red flag
+\end{comment}
+
+% define dimension
+\def\largo{30}
+\def\alto{\largo/1.5}
+% define color
+\definecolor{Fire Engine Red}{HTML}{CF142B}
+\definecolor{Gorse}{HTML}{FAE042}
+% Little 4 stars
+\tikzstyle{estrella}=[fill=Gorse, star point ratio=2.617, minimum size=2 cm]
+
+\begin{document}
+\begin{tikzpicture}
+	\fill[Fire Engine Red] rectangle (\largo, \alto); % Rectangular base
+    \node[star,fill=Gorse, minimum size=6 cm, rotate=0, star point ratio=2.617] at (5,15) {}; % big star
+    % Little 4 stars
+    \foreach \x/\y/\z in {10/18/50, 12/16/25, 12/13/0, 10/11/50}{
+	\node[star, estrella, rotate=\z] at (\x, \y){};
+    }
+\end{tikzpicture}
+\end{document}
